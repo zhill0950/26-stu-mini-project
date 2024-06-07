@@ -1,6 +1,7 @@
 * {
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     background-color: #282828;
+    color: white;
 }
 
 
@@ -36,6 +37,10 @@ h1 {
     color: white;
 }
 
+h2 {
+    text-align: center;
+}
+
 
 #github {
     display: inline-block;
@@ -61,6 +66,7 @@ h1 {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+    margin-top: 30px;
     border: 2px solid aquamarine;
 }
 
@@ -74,4 +80,20 @@ form {
     margin-right: auto;
     width: 25%;
     padding: 20px;
+    border: 2px solid aquamarine;
 }
+
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #555;
+    border-color: white;
+    outline: none;
+  }
+  
+  input[type=text]:focus {
+    background-color: aquamarine;
+  }
