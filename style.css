@@ -9,16 +9,50 @@ header {
 }
 
 
-h1 {
-    text-align: center;
+a.link:link {
+    color: white;
+    text-decoration: none;
+}
+
+a.link.visited {
+    color: white;
+    text-decoration: none;
+}
+
+a.link:hover {
+    text-decoration: underline;
 }
 
 
-li {
+nav {
     position: fixed;
-    display: inline;
-    list-style-type: none;
-    top: 0x;
+    top: 10;
+    right: 0;
+}
+
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+
+#github {
+    display: inline-block;
+    color: white;
+    padding: 8px;
+}
+
+#portfolio {
+    display: inline-block;
+    color: white;
+    padding: 8px;
+}
+
+#contact {
+    display: inline-block;
+    color: white;
+    padding: 8px;
 }
 
 
@@ -27,5 +61,17 @@ li {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-    border: 2px solid;
+    border: 2px solid aquamarine;
+}
+
+hr {
+    border-color: aquamarine;
+}
+
+form {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    padding: 20px;
 }
