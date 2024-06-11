@@ -12,9 +12,9 @@
 
         <nav class="links">
             <ul>
-                <li id="github"><a class="link" href="http://github.com">Github</a></li>
-                <li id="about"><a class="link" href="./about.html">About Us</a></li>
-                <li id="contact"><a class="link" href="./contact.html">Contact</a></li>
+                <li id="github"><a class="link" href="https://github.com/zhill0950">Github</a></li>
+                <li id="about"><a class="link" href="#aboutus">About Us</a></li>
+                <li id="contact"><a class="link" href="#contactus">Contact</a></li>
             </ul>
         </nav>
 
@@ -32,29 +32,40 @@
 
     </section>
 
+    <h3>Image caption here.</h3>
+
     <br/>
     <hr/>
 
-    <h2>About Us</h2>
+    <h2 id="aboutus">About Us</h2>
     <h3>Insert information about yourself here.</h3>
     
     <br/>
     <hr/>
-    
+
     <h2>Contact Us</h2>
 
-    <section class="form">
+    <section class="form" id="contactus">
         <form>
-            <label for="firstname">First Name</label>
-            <input type="text" id="firstname" name="firstname" value="">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" value="">
 
-            <label for="lastname">Last Name</label>
-            <input type="text" id="lastname" name="lastname" value="">
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" value="">
+
+            <input type="submit" value="Submit">
         </form>
+        
+        <div class="button">
+            
+        </div>
     </section>
 
-    <footer>
+    <br/>  
+    <hr/>
 
+    <footer>
+    <p>Created by Zach Hill - 06.24</p>
     </footer>
 </body>
 </html>

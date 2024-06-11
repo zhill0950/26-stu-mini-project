@@ -97,3 +97,22 @@ input[type=text] {
   input[type=text]:focus {
     background-color: aquamarine;
   }
+
+  input[type=submit] {
+    background-color: aquamarine;
+    border: solid;
+    color:white;
+    padding: 10px 25px;
+    text-decoration: none;
+    margin: 0 auto;
+    cursor: pointer;
+    width: 100%;
+  }
+
+p {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
